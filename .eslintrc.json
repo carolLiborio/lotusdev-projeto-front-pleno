@@ -28,6 +28,7 @@
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
       "import/prefer-default-export": "off",
-      "camelcase": "off"
+      "camelcase": "off",
+      "react/prop-types": 0
     }
 }
