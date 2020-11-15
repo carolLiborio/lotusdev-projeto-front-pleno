@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Home from './pages/Home';
 import Result from './pages/Result';
+import Page404 from './pages/Page404';
 import './styles/global.css';
 
 const App = () => (
@@ -11,8 +12,9 @@ const App = () => (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" exact element={<Home />} />
         <Route path="resultado" element={<Result />} />
+        <Route path='*' element={<Page404 />} />
       </Routes>
       <Footer />
     </BrowserRouter>
