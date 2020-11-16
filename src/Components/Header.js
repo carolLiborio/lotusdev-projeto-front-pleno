@@ -110,7 +110,9 @@ const Header = () => {
             </Grid>
           </Grid>
           <Grid item>
+            <Link to="/login">
             <p className={classes.signin}>Entrar</p>
+            </Link>
           </Grid>
         </Grid>
       </Container>
