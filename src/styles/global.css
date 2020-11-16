@@ -34,3 +34,12 @@ img {
 svg {
   display: block;
 }
+
+.red {
+  margin-left: 15;
+  margin-right: 15;
+  margin-top: 20;
+}
+.cont {
+  width: 100%; font-size:18px; color: #212529; float:left; align-items:center;line-height:100px;   justify-content: center;
+}
